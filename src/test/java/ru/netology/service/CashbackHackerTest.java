@@ -8,7 +8,7 @@ public class CashbackHackerTest {
     CashbackHacker service = new CashbackHacker();
 
     @Test
-    public void shouldIfAmountBuyingZero() {// Тест не проходит(
+    public void shouldIfAmountBuyingZero() {
         int amount = 0;
 
         int actual = service.remain(amount);
@@ -19,7 +19,7 @@ public class CashbackHackerTest {
 
 
     @Test
-    public void shouldIfAmountEqualBoundary() {
+    public void shouldIfAmountEqualBoundary() {// Тест не проходит
         int amount = 1000;
 
         int actual = service.remain(amount);
