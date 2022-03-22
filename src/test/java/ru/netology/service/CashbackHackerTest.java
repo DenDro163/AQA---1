@@ -19,7 +19,7 @@ public class CashbackHackerTest {
 
 
     @Test
-    public void shouldIfAmountEqualBoundary() {// Тест не проходит
+    public void shouldIfAmountEqualBoundary() {
         int amount = 1000;
 
         int actual = service.remain(amount);
